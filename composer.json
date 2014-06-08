@@ -1,0 +1,24 @@
+{
+    "name": "neerajsohal/aura",
+    "type": "library",
+    "description": "Simple class to detect applicatoin environment",
+    "keywords": ["environment", "dev", "app environment"],
+    "homepage": "https://github.com/neerajsohal/aura",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neeraj Kumar",
+            "email": "hello@neerajkumar.name",
+            "homepage": "http://www.neerajkumar.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"Aura": "src/"}
+    }
+}
