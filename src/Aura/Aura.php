@@ -20,7 +20,14 @@ class Aura {
 	}
 
 	public function isMachine($name) {
-		return str_is($name, gethostname());
+		$pattern = $name;
+		if ($pattern == gethostname()) return true;
+
+		$pattern = preg_quote($pattern, '#');
+
+		$pattern = str_replace('\*', '.*', $pattern).'\z';
+
+		return (bool) preg_match('#^'.$pattern.'#', gethostname());
 	}
 
 }
