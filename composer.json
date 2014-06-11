@@ -1,22 +1,19 @@
 {
     "name": "neerajsohal/aura",
     "type": "library",
-    "description": "Simple class to detect applicatoin environment",
+    "description": "Very Simple Development Environment Detection",
     "keywords": ["environment", "dev", "app environment"],
     "homepage": "https://github.com/neerajsohal/aura",
     "license": "MIT",
     "authors": [
         {
-            "name": "Neeraj Kumar",
-            "email": "hello@neerajkumar.name",
-            "homepage": "http://www.neerajkumar.name"
+            "name": "neerajsohal",
+            "email": "hello@neerajkumar.name"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        
-    },
-    "require-dev": {
-        
+
     },
     "autoload": {
         "psr-0": {"Aura": "src/"}
